@@ -1,0 +1,107 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/logo.png"
+# use `x` with logo_width, example: "100x".
+# Note: logo_width is not work with .svg file
+logo_width = "150x"
+# logo text will only show when logo is missing.
+logo_text = "Nananina"
+# navbar fixed to top
+navbar_fixed = true
+# OpenGraph / Twitter Card metadata
+description = "生命的意义在于寻找比生命更重要的东西"
+author = "Nananina FENG"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact info
+address = "Paris, France"
+mobile = "+33 xx xx xx xx xx"
+email = "nananina@outlook.com.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# search
+search = true
+
+# featured post title
+featured_post_title = "Featured Post"
+recent_post_title = "Recent Post"
+mainSections = ["blog"]
+# about widget content
+about_widget_content = "生命的意义在于寻找比生命更重要的东西。"
+# footer content
+footer_content = "生命的意义在于寻找比生命更重要的东西。"
+# copyright
+copyright = "Designed By Nananina"
+
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script= ""
+
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Banner
+[banner]
+enable = true
+title_large = "Welcome **!**"
+title_small = "to Nananina Blog"
+image = "images/banner.png"
+background_image = "/images/banner-bg-shape.svg"
+content = "保持对这个世界的好奇与热爱 **|** Smile 😄 **|** La vie en rose"
+button_label = "Know About Me"
+button_link = "about/"
+
+# Advertise
+[advertisement]
+image = "images/promotion.png"
+link = "https://gethugothemes.com/"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["about", "categories", "recent-post"]
+# available widget : about,categories,newsletter,recent-post
+
+
+# Subscription
+[subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+# [[social]]
+# title = "twitter"
+# icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+# link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"

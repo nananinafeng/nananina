@@ -1,0 +1,62 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+[[main]]
+name = "Discover"
+url = "#"
+weight = 3
+hasChildren = true
+
+  [[main]]
+  parent = "Discover"
+  name = "Blog"
+  url = "blog/"
+  weight = 1
+
+  [[main]]
+  parent = "Discover"
+  name = "Tags"
+  url = "tags/"
+  weight = 3
+
+  [[main]]
+  parent = "Discover"
+  name = "Categories"
+  url = "categories/"
+  weight = 3
+
+# footer menu
+[[footer]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+# [[footer]]
+# name = "Privacy Policy"
+# url = "privacy-policy/"
+# weight = 4
